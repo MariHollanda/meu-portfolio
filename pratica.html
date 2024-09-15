@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática 10</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+          background-color: linen;
+        }
+        
+        h1 {
+          color: rgb(199, 9, 9);
+        }
+        </style>
+</head>
+
+<body>
+    <header class="text-black text-center py-4">
+        <h1>Meu Portfólio</h1>
+        <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-center">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contato</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    <main class="container mt-5">
+        <section class="mb-5">
+            <div class="container p-3 my-3 bg-dark text-white">
+                <h2>Sobre</h2>
+                <p>Sou uma desenvolvedora versátil com sólida experiência em diversas linguagens e
+                    tecnologias de programação e experiência na utilização de frameworks. Minhas habilidades
+                    também se estendem à análise de dados e frameworks. Ao longo da minha carreira,
+                    demonstrei minha adaptabilidade trabalhando em múltiplas plataformas, bem como em
+                    softwares de design gráfico como Adobe Photoshop e CorelDRAW. Tenho o compromisso de
+                    entregar soluções de alta qualidade e contribuir para o sucesso de projetos inovadores.</p>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="container p-3 my-3 bg-dark text-white">
+                <h2>Ensino</h2>
+                <p>Descomplica - Engenharia de Software (agosto de 2024 - atual) </p>
+                <p>Holland College - Computer Information Systems (setembro de 2020 - abril de 2022).</p>
+            </div>
+        </section>
+        <section class="mb-5">
+            <div class="container p-3 my-3 bg-dark text-white">
+                <h2>Experiência</h2>
+                <p>Professora de Programação - Escola de Programação e Empreendedorismo de Saquarema (março de 2024 - atual)</p>
+                <p>Técnico de Suporte - Fundação Educacional Severino Sombra (janeiro de 2023 - dezembro de 2023)</p>
+                <p>Software Developer Intern - Cogsdale Corporation (feveiro de 2022 - abril de 2022)</p>
+                <p>Técnico de Suporte - Prefeitura Municipal de Saquarema (agosto de 2019 - dezembro de 2020)</p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; <span id="year"></span> - Design por Marianna Pedroso</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
